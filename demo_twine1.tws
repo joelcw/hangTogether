@@ -1,7 +1,7 @@
 (dp0
 S'buildDestination'
 p1
-V/Users/yoelw/CurrentLx/billw/hangTogether/twineQuestionnaire/test.html
+V/Users/yoelw/hangTogether/test.html
 p2
 sS'saveDestination'
 p3
@@ -243,7 +243,7 @@ Tiddler
 p85
 (dp86
 g21
-V/%This is the current <<print $questionNum>>\u000a<<set $questionNum = $questionNum +2>>\u000aThis is incremented <<print $questionNum>>%/\u000aOk, so you've told us that the main issue you went to the health professional to talk about was <<print $primary>> (if this is wrong, just scroll up to the last question and answer again). Do you also fall into one of these other categories?\u000a\u000a[[anxiety|What happened?][$secondary = "anxiety"]]\u000a[[depression|What happened?][$seconary = "depression"]]\u000a[[being gender-nonconforming (i.e. not cis)|What happened?][$seconary = "trans"]]\u000a[[other|other][$secondary = "other"]]\u000a\u000a[[No|What happened?][$secondary = "none"]]
+V/%This is the current <<print $questionNum>>\u000a<<set $questionNum = $questionNum +2>>\u000aThis is incremented <<print $questionNum>>%/\u000aOk, so you've told us that the main issue you went to the health professional to talk about was <<print $primary>> (if this is wrong, just scroll up to the last question and answer again). Do you also fall into one of these other categories?\u000a\u000a[[anxiety|Attitude towards mental health][$secondary = "anxiety"]]\u000a[[depression|Attitude towards mental health][$seconary = "depression"]]\u000a[[being gender-nonconforming (i.e. not cis)|Attitude towards mental health][$seconary = "trans"]]\u000a[[other|other][$secondary = "other"]]\u000a\u000a[[No|Attitude towards mental health][$secondary = "none"]]
 p87
 sg23
 Vaddiction
@@ -253,9 +253,9 @@ g26
 ((I2015
 I2
 I22
-I14
-I24
-I56
+I15
+I2
+I46
 I6
 I53
 I0
@@ -293,7 +293,7 @@ Tiddler
 p100
 (dp101
 g21
-VOk, so you've told us that the main issue you went to the health professional to talk about was <<print $primary>> (if this is wrong, just scroll up to the last question and answer again). Do you also fall into one of these other categories?\u000a\u000a[[addiction|What happened?][$secondary = "anxiety"]]\u000a[[depression|What happened?][$seconary = "depression"]]\u000a[[being gender-nonconforming (i.e. not cis)|What happened?][$seconary = "trans"]]\u000a[[other|other][$secondary = "other"]]\u000a\u000a[[No|What happened?][$secondary = "none"]]
+VOk, so you've told us that the main issue you went to the health professional to talk about was <<print $primary>> (if this is wrong, just scroll up to the last question and answer again). Do you also fall into one of these other categories?\u000a\u000a[[addiction|Attitude towards mental health][$secondary = "anxiety"]]\u000a[[depression|Attitude towards mental health][$seconary = "depression"]]\u000a[[being gender-nonconforming (i.e. not cis)|Attitude towards mental health][$seconary = "trans"]]\u000a[[other|other][$secondary = "other"]]\u000a\u000a[[No|Attitude towards mental health][$secondary = "none"]]
 p102
 sg23
 Vanxiety
@@ -303,9 +303,9 @@ g26
 ((I2015
 I2
 I22
-I14
-I24
-I26
+I15
+I3
+I0
 I6
 I53
 I0
@@ -343,7 +343,7 @@ Tiddler
 p115
 (dp116
 g21
-VOk, so you've told us that the main issue you went to the health professional to talk about was <<print $primary>> (if this is wrong, just scroll up to the last question and answer again). Do you also fall into one of these other categories?\u000a\u000a[[anxiety|What happened?][$secondary = "anxiety"]]\u000a[[depression|What happened?][$seconary = "depression"]]\u000a[[addiction|What happened?][$seconary = "addiction"]]\u000a[[other|other][$secondary = "other"]]\u000a\u000a[[No|What happened?][$secondary = "none"]]
+VOk, so you've told us that the main issue you went to the health professional to talk about was <<print $primary>> (if this is wrong, just scroll up to the last question and answer again). Do you also fall into one of these other categories?\u000a\u000a[[anxiety|Attitude towards mental health][$secondary = "anxiety"]]\u000a[[depression|Attitude towards mental health][$seconary = "depression"]]\u000a[[addiction|Attitude towards mental health][$seconary = "addiction"]]\u000a[[other|other][$secondary = "other"]]\u000a\u000a[[No|Attitude towards mental health][$secondary = "none"]]
 p117
 sg23
 Vgender minority
@@ -353,9 +353,9 @@ g26
 ((I2015
 I2
 I22
-I14
-I24
-I46
+I15
+I0
+I45
 I6
 I53
 I0
@@ -393,7 +393,7 @@ Tiddler
 p130
 (dp131
 g21
-VOk, so you've told us that the main issue you went to the health professional to talk about was <<print $primary>> (if this is wrong, just scroll up to the last question and answer again). Do you also fall into one of these other categories?\u000a\u000a[[anxiety|What happened?][$secondary = "anxiety"]]\u000a[[addiction|What happened?][$seconary = "depression"]]\u000a[[being gender-nonconforming (i.e. not cis)|What happened?][$seconary = "trans"]]\u000a[[other|other][$secondary = "other"]]\u000a\u000a[[No|What happened?][$secondary = "none"]]
+VOk, so you've told us that the main issue you went to the health professional to talk about was <<print $primary>> (if this is wrong, just scroll up to the last question and answer again). Do you also fall into one of these other categories?\u000a\u000a[[anxiety|Attitude towards mental health][$secondary = "anxiety"]]\u000a[[addiction|Attitude towards mental health][$seconary = "depression"]]\u000a[[being gender-nonconforming (i.e. not cis)|Attitude towards mental health][$seconary = "trans"]]\u000a[[other|other][$secondary = "other"]]\u000a\u000a[[No|Attitude towards mental health][$secondary = "none"]]
 p132
 sg23
 Vdepression
@@ -403,9 +403,9 @@ g26
 ((I2015
 I2
 I22
-I14
-I25
+I15
 I2
+I32
 I6
 I53
 I0
@@ -443,7 +443,7 @@ Tiddler
 p145
 (dp146
 g21
-VPlease simply and briefly describe the experience you had at the healthcare service, step by step, in the order that things happened, as best as you can remember. If you can, please pay particular attention to any questions the service asked you, and any personal or family histories they asked you to provide.\u000a\u000aFor the moment, please try to do this without expressing judgment or complaints. (Don't worry: you will have an opportunity in just a few minutes to describe any problems, complaints, or missteps that the service provider made. We just want to save these parts of your experience in a separate section.)\u000a\u000a\u000a\u000a<<textarea $description>>\u000a\u000a\u000a\u000a\u000a/%<textarea name="description" cols="40" rows="5" id = "mytext"></textarea>%/\u000a\u000a<<button [[Submit and continue|Attitude towards mental health]]>>\u000a\u000a/%<<button [[Submit and continue|Attitude towards mental health]]>>%/
+VIf you feel like it, we'd appreciate it if you could simply and briefly describe the experience you had at the healthcare service. If you don't feel like doing this, just click [[here|Final Comments]].\u000a\u000aIf you can, let us know what happened step by step, in the order that things happened, as best as you can remember. If you can, please pay particular attention to any questions the service asked you, and any personal or family histories they asked you to provide.\u000a\u000aFor the moment, please try to do this without expressing judgment or complaints. (Don't worry: you will have an opportunity in just a few minutes to describe any problems, complaints, or missteps that the service provider made. We just want to save these parts of your experience in a separate section.)\u000a\u000a\u000a\u000a<<textarea $description>>\u000a\u000a\u000a\u000a\u000a/%<textarea name="description" cols="40" rows="5" id = "mytext"></textarea>%/\u000a\u000a<<button [[Submit and continue|Final Comments]]>>\u000a\u000a/%<<button [[Submit and continue|Attitude towards mental health]]>>%/
 p147
 sg23
 VWhat happened?
@@ -451,13 +451,13 @@ p148
 sg25
 g26
 ((I2015
-I1
-I10
+I2
+I22
 I15
-I41
-I25
-I5
-I10
+I0
+I11
+I6
+I53
 I0
 tp149
 (dp150
@@ -797,7 +797,7 @@ Tiddler
 p252
 (dp253
 g21
-VOk, so you've told us that you fall into the category of <<print $primary>> (if this is wrong, just scroll up to the last question and answer again). What do you mean by this?\u000a\u000a<<textarea $otherInfo>>\u000a\u000a\u000aAnd do you also fall into one of these other categories?\u000a[[anxiety|What happened?][$secondary = "anxiety"]]\u000a[[depression|What happened?][$seconary = "depression"]]\u000a[[being gender-nonconforming (i.e. not cis)|What happened?][$seconary = "trans"]]\u000a[[addiction|What happened?][$secondary = "other"]]\u000a\u000a[[No|What happened?][$secondary = "none"]]
+VOk, so you've told us that you fall into the category of <<print $primary>> (if this is wrong, just scroll up to the last question and answer again). What do you mean by this?\u000a\u000a<<textarea $otherInfo>>\u000a\u000a\u000aAnd do you also fall into one of these other categories?\u000a[[anxiety|Attitude towards mental health][$secondary = "anxiety"]]\u000a[[depression|Attitude towards mental health][$seconary = "depression"]]\u000a[[being gender-nonconforming (i.e. not cis)|Attitude towards mental health][$seconary = "trans"]]\u000a[[addiction|Attitude towards mental health][$secondary = "other"]]\u000a\u000a[[No|Attitude towards mental health][$secondary = "none"]]
 p254
 sg23
 Vother
@@ -807,9 +807,9 @@ g26
 ((I2015
 I2
 I22
-I14
-I25
-I59
+I15
+I2
+I5
 I6
 I53
 I0
@@ -1047,7 +1047,7 @@ Tiddler
 p327
 (dp328
 g21
-VHow likely are you to take the medicine/thing you were prescribed, or to do the specific actions that were suggested to you?\u000a\u000a<<radio $Meds "I definitely intend to.">>\u000a <<radio $Meds "Fairly likely.">>\u000a   <<radio $Meds "I'm unsure if I will do it.">>\u000a<<radio $Meds "I don't intend to do it at all.">>\u000a  \u000a\u000a  \u000a\u000a  <<button [[Submit and Continue|Final Comments]]>>
+VHow likely are you to take the medicine/thing you were prescribed, or to do the specific actions that were suggested to you?\u000a\u000a<<radio $Meds "I definitely intend to.">>\u000a <<radio $Meds "Fairly likely.">>\u000a   <<radio $Meds "I'm unsure if I will do it.">>\u000a<<radio $Meds "I don't intend to do it at all.">>\u000a  \u000a\u000a  \u000a\u000a  <<button [[Submit and Continue|What happened?]]>>
 p329
 sg23
 VActions
@@ -1056,12 +1056,12 @@ sg25
 g26
 ((I2015
 I2
-I1
-I13
-I47
-I21
+I22
+I15
+I3
+I59
 I6
-I32
+I53
 I0
 tp331
 (dp332
@@ -1097,7 +1097,7 @@ Tiddler
 p342
 (dp343
 g21
-VDid this appointment involve either being prescribed some medicine for you to take (e.g. drugs, hormones) or some kind of therapy with specific suggestions (e.g. physical therapy, workbooks, specific actions in your life)?\u000a\u000a[[Yes|Actions]]\u000a[[No|Final Comments]]
+VDid this appointment involve either being prescribed some medicine for you to take (e.g. drugs, hormones) or some kind of therapy with specific suggestions (e.g. physical therapy, workbooks, specific actions in your life)?\u000a\u000a[[Yes|Actions]]\u000a[[No|What happened?]]
 p344
 sg23
 VAction Choice
@@ -1106,12 +1106,12 @@ sg25
 g26
 ((I2015
 I2
-I1
-I13
-I46
-I21
+I22
+I15
+I3
+I42
 I6
-I32
+I53
 I0
 tp346
 (dp347
